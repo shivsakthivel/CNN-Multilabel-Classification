@@ -4,7 +4,7 @@
 An implementation of a Convolutional Neural Network (CNN) multi-label classifier that takes in chest radiograph images as and outputs their corresponding predicted labels for detecting pulmonary edema and pleural effusion.
 
 ## Retrieving the Data for this project
-The data available for this project came in the form of DICOM files stored on a Google Cloud instance, with the entire database being of size 4 TB. Therefore, this GitHub repository contains exploratory notebooks, walking through the data access and model training process. However, the scripts associated with the repository only replicate the overall results of the project.
+The data available for this project came in the form of DICOM files stored on a Google Cloud instance (credentialed access only), with the entire database being of size 4 TB. Therefore, this GitHub repository contains exploratory notebooks, walking through the data access and model training process. However, the scripts associated with the repository only replicate the overall results of the project.
 
 ## Building the project results using run.py
 
