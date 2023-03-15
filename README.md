@@ -9,10 +9,10 @@ The data available for this project came in the form of DICOM files stored on a 
 The scripts associated with this repository, therefore, assume that the user has the required access to the data files, with the required filepaths relative to the directory in which they were developed. However, this GitHub repository contains exploratory notebooks, walking through the data access and model training process, and covers examples of the obtained results. Specifically, the notebook `Single-Var-Model-Edema.ipynb` is a comprehensive exploration of one of the single label binary classifiers developed for this project. 
 
 ## Build and Run
-To run the single label Pulmonary Edema classifier run `python main.py edema`.
-To run the single label Pleural Effusion classifier run `python main.py effusion`.
-To run the multi-label classifier run `python main.py multilabel`.
-To run the multi-class classifier run `python main.py multiclass`.
+- To run the single label Pulmonary Edema classifier run `python main.py edema`.
+- To run the single label Pleural Effusion classifier run `python main.py effusion`.
+- To run the multi-label classifier run `python main.py multilabel`.
+- To run the multi-class classifier run `python main.py multiclass`.
 
 ## Requirements
 The dependencies required for this project can be installed by running `pip install -r requirements.txt`.
