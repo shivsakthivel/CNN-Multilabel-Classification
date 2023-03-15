@@ -1,4 +1,4 @@
-# DSC 180B - Exploring the viability of Convolutional Neural Networks (CNNs) on a multi-label classification task to detect radiographic outliers
+# Exploring the viability of Convolutional Neural Networks (CNNs) on a multi-label classification task to detect radiographic outliers
 
 ## Task
 An implementation of a Convolutional Neural Network (CNN) multi-label classifier that takes in chest radiograph images as and outputs their corresponding predicted labels for detecting pulmonary edema and pleural effusion.
