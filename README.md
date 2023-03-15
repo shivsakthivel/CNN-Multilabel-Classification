@@ -4,14 +4,7 @@
 An implementation of a Convolutional Neural Network (CNN) multi-label classifier that takes in chest radiograph images as and outputs their corresponding predicted labels for detecting pulmonary edema and pleural effusion.
 
 ## Retrieving the Data for this project
-The data available for this project came in the form of DICOM files stored on a Google Cloud instance (credentialed access only), with the entire database being of size 4 TB. Therefore, this GitHub repository contains exploratory notebooks, walking through the data access and model training process. However, the scripts associated with the repository only replicate the overall results of the project.
+The data available for this project came in the form of DICOM files stored on a Google Cloud instance (credentialed access only), with the entire database being of size 4 TB. The required credentialing can be obtained [here](https://physionet.org/content/mimic-cxr/2.0.0/). The scripts associated with this repository, therefore, assume that the user has the required access to the data files. However, this GitHub repository contains exploratory notebooks, walking through the data access and model training process, and covers examples of the obtained results.
 
-## Building the project results using run.py
-
-Run `python run.py test`
-
-This will produce an output file with the visualizations associated with the model loss and accuracy on each of the predicted labels.
-
-## Other Files in the Repository
-
-A large section of the code and model development was done in Jupyter Notebooks, so that is a good resource for how the model was developed from the given data files.
+## Requirements
+The dependencies required for this project can be installed by running `pip install -r requirements.txt`.
